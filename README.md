@@ -5,17 +5,7 @@ Two Streamlit apps powered by Google Gemini in one repository:
 - **MedScan**: upload a medical image and get a structured clinical-style analysis.
 - **GenAI SQL Helper**: turn plain English into a SQL query with an explanation.
 
-## Repository Name
 
-Recommended GitHub repo name:
-
-- `genai-streamlit-suite`
-
-Other good options:
-
-- `gemini-streamlit-apps`
-- `ai-assistant-suite`
-- `genai-multi-apps`
 
 ## Project Structure
 
