@@ -1,60 +1,80 @@
-# GenAI Streamlit Suite
+# Computer Vision & Generative AI Projects
 
-Two Streamlit apps powered by Google Gemini in one repository:
+A collection of beginner to intermediate AI, Machine Learning, Computer Vision, and Generative AI projects built while learning practical AI development. Each project focuses on implementing real-world concepts using Python, Deep Learning, Streamlit, and modern LLM frameworks.
 
-- **MedScan**: upload a medical image and get a structured clinical-style analysis.
-- **GenAI SQL Helper**: turn plain English into a SQL query with an explanation.
+## Projects
 
+### 1. MNIST CNN Classifier
 
+A Convolutional Neural Network built with TensorFlow/Keras to classify handwritten digits (0 and 1). This project demonstrates image preprocessing, CNN architecture, training, evaluation, and prediction.
 
-## Project Structure
+**Tech Stack**
 
-```text
-.
-├── medscan_app.py
-└── sqlquery_app.py
-```
+* Python
+* TensorFlow / Keras
+* NumPy
+* Matplotlib
 
-## Features
+---
 
-### MedScan
+### 2. GenAI Streamlit Suite
 
-- Upload PNG, JPG, JPEG, or WEBP images.
-- Add optional patient history.
-- Uses Gemini to generate a structured analysis.
+A collection of Streamlit applications powered by Large Language Models.
 
-### SQL Helper
+Included applications:
 
-- Enter a request in plain English.
-- Generates a SQL query.
-- Returns a short explanation and example usage.
+* Medical Image Analysis Assistant
+* Natural Language to SQL Query Generator
 
-## Requirements
+**Tech Stack**
 
-- Python 3.10 or newer
-- Streamlit
-- `google-generativeai`
-- `Pillow` for the MedScan app
+* Python
+* Streamlit
+* Google Gemini API
+* Pillow
 
-## Setup
+---
 
-1. Create and activate a virtual environment.
-2. Install the dependencies:
+### 3. RAG Document Assistant
 
-```bash
-pip install streamlit google-generativeai pillow
-```
+A Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions about their content. The application retrieves relevant document chunks using FAISS vector search and generates grounded answers using the Groq Llama 3 model.
 
-## Run the Apps
+**Features**
 
-### MedScan
+* Upload multiple PDF documents
+* Automatic document chunking
+* Semantic search using FAISS
+* HuggingFace embeddings
+* Context-aware question answering
+* Clean Streamlit interface
 
-```bash
-streamlit run medscan_app.py
-```
+**Tech Stack**
 
-### SQL Helper
+* Python
+* Streamlit
+* LangChain
+* FAISS
+* HuggingFace Embeddings
+* Groq (Llama 3)
+* PyPDF2
 
-```bash
-streamlit run sqlquery_app.py
-```
+---
+
+## Technologies Used
+
+* Python
+* TensorFlow
+* Keras
+* Streamlit
+* LangChain
+* FAISS
+* HuggingFace
+* Groq
+* Google Gemini
+* NumPy
+* Matplotlib
+* Pillow
+
+## Repository Goal
+
+This repository documents my learning journey in Artificial Intelligence, Machine Learning, Computer Vision, and Generative AI by building practical, hands-on projects. More projects will be added as I continue learning and exploring modern AI technologies.
